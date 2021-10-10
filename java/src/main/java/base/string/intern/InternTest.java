@@ -1,4 +1,4 @@
-package string.intern;
+package base.string.intern;
 
 public class InternTest {
 
