@@ -24,6 +24,10 @@ public class SumPathByGuiMeng {
     }
 
     public static void preOrderTraveral(int num, TreeNode node, int sum) {
+        // 剪枝
+        if(m) {
+            return;
+        }
         if (num == sum && node.leftChild == null && node.rightChild == null) {
             m = true;
         }
